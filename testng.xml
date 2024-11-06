@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySuite" verbose="2">
+    <!--<parameter name="browser" value="chrome"/>
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>-->
+
+    <test name="MyTest01">
+        <classes>
+            <class name="LoginAndBasicValidationsTest" />
+        </classes>
+    </test>
+    <test name="MyTest02">
+        <classes>
+            <class name="SortingAndAddingProductsToCartTest"/>
+        </classes>
+    </test>
+    <test name="MyTest03">
+        <classes>
+            <class name="CartVerificationTest" />
+        </classes>
+    </test>
+</suite>
