@@ -1,4 +1,4 @@
-package cricinfo;
+package jobserveTest;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,7 +33,7 @@ public class BaseTest {
 
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get("https://www.espncricinfo.com/series/wi-w-in-eng-and-ire-2019-1168009/ireland-women-vs-west-indies-women-2nd-t20i-1185155/full-scorecard");
+        driver.get("https://jobserve.com/us/en/Job-Search/");
 
     }
 

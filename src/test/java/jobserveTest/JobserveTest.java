@@ -1,11 +1,7 @@
-package jobserve;
+package jobserveTest;
 
 import org.example.jobserve.JobServePage;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 
 public class JobserveTest extends BaseTest{
     private JobServePage jobServePage;

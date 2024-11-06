@@ -1,4 +1,4 @@
-package cricinfo;
+package cricinfoTest;
 
 import org.example.cricinfo.CricInfoPage;
 import org.testng.annotations.Test;
