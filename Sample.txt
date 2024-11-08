@@ -1,2 +1,0 @@
-Git branch jira_3139_addLoginCase
-Sample.txt file created
